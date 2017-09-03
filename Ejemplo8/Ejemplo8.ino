@@ -1,12 +1,12 @@
 int Byterecibido = 79;
 
 void setup() {
-  // put your setup code here, to run once:
+  //español
 Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  //español español
 if (Serial.available()>0){
   Byterecibido=Serial.read();
   Serial.print("He recibido el dato: ");
@@ -17,3 +17,5 @@ if (Serial.available()>0){
   Serial.println(Byterecibido,BIN);
 }
 }
+
+// Fin
