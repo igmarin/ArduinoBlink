@@ -17,4 +17,4 @@ if (Serial.available()>0){
   Serial.println(Byterecibido,BIN);
 }
 }
-// Dime que agregue
+
